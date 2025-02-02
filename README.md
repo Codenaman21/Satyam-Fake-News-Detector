@@ -31,6 +31,39 @@ Satyam is a web-based application designed to detect fake news using NLP techniq
 - **NLP Model**: Uses libraries such as Scikit-learn, TensorFlow, and Hugging Face Transformers for text classification.
 - **REST API**: Enables external applications to utilize Satyam’s functionalities through API requests.
 
+
+## Workflow of the Project
+### Step 1: User Registration & Login
+- Users register by providing a username, email, and password.
+- Login credentials are securely stored in the SQLite database.
+- Users authenticate using their credentials to access the system.
+
+### Step 2: News Submission
+- Users can enter a news article as plain text or provide a URL.
+- The system extracts relevant content for analysis.
+
+### Step 3: Preprocessing & NLP Analysis
+- Text is cleaned by removing stopwords, special characters, and redundant data.
+- The NLP model (BERT, RoBERTa, or another ML model) tokenizes and processes the input.
+- The model predicts whether the news is **real** or **fake**.
+
+### Step 4: Displaying Results
+- The system returns the classification result with a confidence score.
+- Users receive visual feedback indicating the likelihood of the news being fake or real.
+
+### Step 5: History Tracking
+- The result is saved in the database for future reference.
+- Users can view their previous analyses and track patterns over time.
+
+### Step 6: Admin Monitoring & API Integration
+- Admins can oversee user activity and manage database records.
+- External applications can integrate with Satyam through provided API endpoints.
+
+### Step 7: User Feedback & Model Improvement
+- Users can provide feedback on incorrect classifications.
+- Feedback is used to retrain and enhance the NLP model.
+
+
 ## Installation
 
 1. **Clone the repository:**
@@ -101,7 +134,7 @@ Contributions are welcome! If you would like to improve Satyam, please fork the 
 
 ## License
 
-This project is licensed under the APACHE 2.O License.
+This project is licensed under the **APACHE 2.O** License.
 
 ## Contact
 
