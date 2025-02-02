@@ -21,7 +21,7 @@ app = Flask(__name__ , template_folder="templates")
 
 
 #enable flask session
-app.secret_key = 'Dadukigadi@1234'
+app.secret_key = 'your_seceret_key'# make a new secret key fro yourself for authentication
 
 
 #function to create database in sqlite
