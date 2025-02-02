@@ -13,7 +13,7 @@ Satyam is a web-based application designed to detect fake news using NLP techniq
 - **Naman Sachdeva**
 - **Tarun Barkoti**
 - **Yash Mohite**
-- **Aniket Parhashar**
+- **Aniket Prashar**
 
 Together, we collaborated to build an accurate and user-friendly fake news detection system using cutting-edge NLP techniques.
 
