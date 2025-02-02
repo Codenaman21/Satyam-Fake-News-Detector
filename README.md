@@ -8,6 +8,15 @@ This project is built with a powerful combination of technologies: a Python back
 
 Satyam is a web-based application designed to detect fake news using NLP techniques. The project features a Python-based backend, an HTML/CSS/JavaScript frontend, and an SQLite database for user authentication. It provides an intuitive interface where users can submit news articles, analyze their authenticity, and store results for future reference.
 
+## Project Team: Scriptifiers
+**Satyam** was developed by **Scriptifiers**, a team of four dedicated developers:
+- **Naman Sachdeva**
+- **Tarun Barkoti**
+- **Yash Mohite**
+- **Aniket Parhashar**
+
+Together, we collaborated to build an accurate and user-friendly fake news detection system using cutting-edge NLP techniques.
+
 ## Features
 
 - **User Authentication**: Users can securely register, log in, and manage their accounts.
@@ -127,6 +136,7 @@ Satyam is a web-based application designed to detect fake news using NLP techniq
 - **Advanced Data Visualization**: Incorporate analytics dashboards displaying fake news trends over time.
 - **Mobile App Development**: Create a dedicated mobile application for better accessibility.
 - **Social Media Integration**: Enable direct news verification from social media platforms.
+
 
 ## Contributing
 
