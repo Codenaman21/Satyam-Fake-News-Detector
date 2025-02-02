@@ -35,7 +35,7 @@ Satyam is a web-based application designed to detect fake news using NLP techniq
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/Codenaman21/satyam
+   git clone https://github.com/Codenaman21/Satyam-Fake-News-Detector.git
    cd satyam
    ```
 2. **Set up a virtual environment:**
